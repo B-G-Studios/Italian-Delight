@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "italian_delight:items/hellhound_wine"
+    "layer0": "italian_delight:item/hellhound_wine"
   }
 }

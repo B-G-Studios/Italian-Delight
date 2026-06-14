@@ -1,6 +1,7 @@
 {
   "itemGroup.italian_delight": "Italian Delight Items",
 
+  "creative.italian_delight": "Italian Delights Items",
 
   "item.italian_delight.grapes": "Grapes",
   "item.italian_delight.grape_seeds": "Grape Seeds",
@@ -31,6 +32,15 @@
   "item.italian_delight.glowberry_wine": "Glowberry Wine",
   "item.italian_delight.sweetberry_wine": "Sweetberry Wine",
   "item.italian_delight.spumante": "Spumante",
+  "item.italian_delight.hellhound_wine": "Hellhound Wine",
+
+  "fluid_type.italian_delight.hellhound_wine_type": "Hellhound Wine",
+  "fluid_type.italian_delight.dragonborn_wine_type": "Dragonborn Wine",
+  "fluid_type.italian_delight.hasting_wine_type": "Hasting Wine",
+  "fluid_type.italian_delight.rose_wine_type": "Rosé Wine",
+  "fluid_type.italian_delight.glowberry_wine_type": "Glowberry Wine",
+  "fluid_type.italian_delight.sweetberry_wine_type": "Sweetberry Wine",
+  "fluid_type.italian_delight.spumante_type": "Spumante",
 
   "block.italian_delight.pizza_prosciutto": "Pizza Prosciutto",
   "block.italian_delight.pizza_funghi": "Pizza Funghi",

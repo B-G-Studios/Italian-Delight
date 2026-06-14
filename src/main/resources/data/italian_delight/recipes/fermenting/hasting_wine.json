@@ -1,12 +1,10 @@
 {
   "type": "brewinandchewin:fermenting",
-  "container": {
-    "item": "minecraft:glass_bottle"
-  },
   "experience": 0.6,
   "fermentingtime": 12000,
-  "fluiditem": {
-    "item": "minecraft:water_bucket"
+  "basefluid": {
+    "count": 1000,
+    "fluid": "minecraft:water"
   },
   "ingredients": [
     {
@@ -20,7 +18,8 @@
     }
   ],
   "result": {
-    "item": "italian_delight:hasting_wine"
+    "count": 1000,
+    "fluid": "italian_delight:hasting_wine"
   },
   "recipe_book_tab": "drinks",
   "temperature": 3

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "italian_delight:items/prosciutto_raw"
+    "layer0": "italian_delight:item/prosciutto_raw"
   }
 }

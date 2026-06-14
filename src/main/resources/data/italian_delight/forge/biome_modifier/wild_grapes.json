@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "minecraft:jungle",
-  "features": "italian_delight:patch_wild_grapes",
-  "step": "vegetal_decoration"
-}

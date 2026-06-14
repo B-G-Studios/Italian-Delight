@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "minecraft:plains",
-  "features": "italian_delight:patch_wild_herbs",
-  "step": "vegetal_decoration"
-}

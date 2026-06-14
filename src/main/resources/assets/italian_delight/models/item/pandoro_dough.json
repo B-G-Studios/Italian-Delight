@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "italian_delight:items/pandoro_dough"
+    "layer0": "italian_delight:item/pandoro_dough"
   }
 }

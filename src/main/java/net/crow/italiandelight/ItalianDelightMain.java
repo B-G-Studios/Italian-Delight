@@ -34,14 +34,6 @@ public class ItalianDelightMain
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
-    public static final CreativeModeTab CREATIVE_TAB = new CreativeModeTab(ItalianDelightMain.MODID)
-    {
-        @Nonnull
-        @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(BlockInit.WOODEN_OVEN.get());
-        }
-    };
     public ItalianDelightMain()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -51,6 +43,10 @@ public class ItalianDelightMain
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         BlockInit.BLOCKS.register(modEventBus);
+
+        // Register Fluids for Brewin and Chewin brews
+        FluidInit.FLUID_TYPES.register(modEventBus);
+        FluidInit.FLUIDS.register(modEventBus);
 
         // Register the Deferred Register to the mod event bus so items get registered
         ItemInit.ITEMS.register(modEventBus);
@@ -67,11 +63,8 @@ public class ItalianDelightMain
         // Register the Deferred Register to the mod event bus so menus get registered
         MenuInit.MENUS.register(modEventBus);
 
-        // Register the Deferred Register to the mod event bus so configs get registered
-        ModConfiguredFeatures.register(modEventBus);
 
-        //Register the Deferred Register to the mod event bus so place features get registered
-        ModPlacedFeatures.register(modEventBus);
+        CreativeTabInit.CREATIVE_MODE_TABS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

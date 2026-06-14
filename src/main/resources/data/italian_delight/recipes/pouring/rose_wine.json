@@ -1,0 +1,11 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "amount": 250,
+  "filling": true,
+  "fluid": "italian_delight:rose_wine",
+  "output": {
+    "item": "italian_delight:rose_wine"
+  },
+  "strict": false
+}
+    

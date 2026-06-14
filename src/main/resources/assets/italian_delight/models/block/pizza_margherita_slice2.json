@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
-    "top": "italian_delight:blocks/margherita_pizza_top",
-    "inside": "italian_delight:blocks/margherita_pizza_inner",
+    "top": "italian_delight:block/margherita_pizza_top",
+    "inside": "italian_delight:block/margherita_pizza_inner",
     "side": "brewinandchewin:block/pizza_side",
     "bottom": "brewinandchewin:block/pizza_bottom",
-    "particle": "italian_delight:blocks/margherita_pizza_top"
+    "particle": "italian_delight:block/margherita_pizza_top"
   },
   "elements": [
     {

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "italian_delight:items/salami_slices"
+    "layer0": "italian_delight:item/salami_slices"
   }
 }

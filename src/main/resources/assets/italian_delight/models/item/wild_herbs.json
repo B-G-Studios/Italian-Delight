@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "italian_delight:blocks/wild_herbs"
+    "layer0": "italian_delight:block/wild_herbs"
   }
 }

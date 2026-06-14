@@ -1,8 +1,8 @@
 {
   "parent": "block/crop",
   "textures": {
-    "crop": "italian_delight:blocks/grape3-5",
-    "particle": "italian_delight:blocks/grape3-5"
+    "crop": "italian_delight:block/grape3-5",
+    "particle": "italian_delight:block/grape3-5"
   },
   "render_type": "cutout"
 }

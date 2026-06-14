@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "italian_delight:blocks/olive_leaves"
+    "all": "italian_delight:block/olive_leaves"
   },
   "render_type": "cutout"
 }

@@ -2,8 +2,8 @@ package net.crow.italiandelight;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.entity.Mob;
 import net.minecraft.world.food.FoodProperties;
+import umpaz.brewinandchewin.common.registry.BnCEffects;
 
 public class FoodValues {
 
@@ -40,13 +40,37 @@ public class FoodValues {
     public static final FoodProperties PIZZA_MARGHERITA_SLICE = ((new FoodProperties.Builder().nutrition(4).saturationMod(0.3f).build()));
     public static final FoodProperties PIZZA_DANTE_SLICE = ((new FoodProperties.Builder().nutrition(6).saturationMod(0.5f).build()));
     public static final FoodProperties PIZZA_DIAVOLA_SLICE = ((new FoodProperties.Builder().nutrition(4).saturationMod(0.3f).build()));
+
     // Wine
-    public static final FoodProperties GLOWBERRY_WINE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.5f).effect(() -> new MobEffectInstance(MobEffects.GLOWING, 1600, 1), 1.0f).alwaysEat().build());
-    public static final FoodProperties ROSE_WINE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 1000, 1), 1.0f).alwaysEat().build());
-    public static final FoodProperties HELLHOUND_WINE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.8f).effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 3400, 1), 1.0f).alwaysEat().build());
-    public static final FoodProperties DRAGONBORN_WINE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.8f).effect(() -> new MobEffectInstance(MobEffects.SLOW_FALLING, 7500, 1), 1.0f).effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 5200, 2), 1.0f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 7500, 2), 1.0f).alwaysEat().build());
-    public static final FoodProperties HASTING_WINE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.8f).effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 1), 1.0f).alwaysEat().build());
-    public static final FoodProperties SWEETBERRY_WINE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.8f).alwaysEat().build());
-    public static final FoodProperties SPUMANTE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.7f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3600, 1), 1.0f).alwaysEat().build());
+    // duration 1200 = 1 min
+    public static final FoodProperties GLOWBERRY_WINE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.5f)
+            .effect(() -> new MobEffectInstance(BnCEffects.TIPSY.get(), 4800, 0), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 1600, 1), 1.0f)
+            .alwaysEat().build());
+    public static final FoodProperties ROSE_WINE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.6f)
+            .effect(() -> new MobEffectInstance(BnCEffects.TIPSY.get(), 3600, 0), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 1000, 1), 1.0f)
+            .alwaysEat().build());
+    public static final FoodProperties HELLHOUND_WINE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.8f)
+            .effect(() -> new MobEffectInstance(BnCEffects.TIPSY.get(), 6000, 1), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 3400, 1), 1.0f)
+            .alwaysEat().build());
+    public static final FoodProperties DRAGONBORN_WINE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.8f)
+            .effect(() -> new MobEffectInstance(BnCEffects.TIPSY.get(), 6000, 1), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.SLOW_FALLING, 7500, 1), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 5200, 2), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 7500, 2), 1.0f)
+            .alwaysEat().build());
+    public static final FoodProperties HASTING_WINE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.8f)
+            .effect(() -> new MobEffectInstance(BnCEffects.TIPSY.get(), 6000, 1), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 1), 1.0f)
+            .alwaysEat().build());
+    public static final FoodProperties SWEETBERRY_WINE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.8f)
+            .effect(() -> new MobEffectInstance(BnCEffects.TIPSY.get(), 6000, 0), 1.0f)
+            .alwaysEat().build());
+    public static final FoodProperties SPUMANTE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.7f)
+            .effect(() -> new MobEffectInstance(BnCEffects.TIPSY.get(), 3600, 0), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3600, 1), 1.0f)
+            .alwaysEat().build());
 
 }

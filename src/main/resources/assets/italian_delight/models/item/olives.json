@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "italian_delight:items/olives"
+    "layer0": "italian_delight:item/olives"
   }
 }

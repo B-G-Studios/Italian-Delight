@@ -1,13 +1,11 @@
 {
   "type": "brewinandchewin:fermenting",
-  "container": {
-    "item": "minecraft:glass_bottle"
+  "basefluid": {
+    "count": 1000,
+    "fluid": "italian_delight:sweetberry_wine"
   },
   "experience": 0.6,
   "fermentingtime": 12000,
-  "fluiditem": {
-    "item": "italian_delight:sweetberry_wine"
-  },
   "ingredients": [
     {
       "item": "italian_delight:grapes"
@@ -20,7 +18,8 @@
     }
   ],
   "result": {
-    "item": "italian_delight:glowberry_wine"
+    "count": 1000,
+    "fluid": "italian_delight:glowberry_wine"
   },
   "recipe_book_tab": "drinks",
   "temperature": 3

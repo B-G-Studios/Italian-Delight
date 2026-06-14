@@ -1,26 +1,22 @@
 {
   "type": "brewinandchewin:fermenting",
-  "container": {
-    "item": "minecraft:glass_bottle"
+  "basefluid": {
+    "count": 1000,
+    "fluid": "italian_delight:hellhound_wine"
   },
   "experience": 0.6,
   "fermentingtime": 12000,
-  "fluiditem": {
-    "item": "minecraft:water_bucket"
-  },
   "ingredients": [
     {
       "item": "minecraft:dragon_breath"
-    },
-    {
-      "item": "italian_delight:hellhound_wine"
     },
     {
       "item": "minecraft:ender_pearl"
     }
   ],
   "result": {
-    "item": "italian_delight:dragonborn_wine"
+    "count": 1000,
+    "fluid": "italian_delight:dragonborn_wine"
   },
   "recipe_book_tab": "drinks",
   "temperature": 3

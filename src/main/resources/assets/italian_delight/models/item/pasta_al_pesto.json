@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "italian_delight:items/pasta_al_pesto"
+    "layer0": "italian_delight:item/pasta_al_pesto"
   }
 }
