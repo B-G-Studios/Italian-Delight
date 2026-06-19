@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "italian_delight:ciambellone"
+    }
+  ],
+  "result": [
+    {
+      "count": 8,
+      "item": "italian_delight:ciambellone_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

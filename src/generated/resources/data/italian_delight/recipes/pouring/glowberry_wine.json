@@ -1,0 +1,10 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "amount": 250,
+  "filling": true,
+  "fluid": "italian_delight:glowberry_wine",
+  "output": {
+    "item": "italian_delight:glowberry_wine"
+  },
+  "strict": false
+}

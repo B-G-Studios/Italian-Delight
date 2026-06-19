@@ -1,0 +1,26 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "basefluid": {
+    "count": 1000,
+    "fluid": "minecraft:lava"
+  },
+  "experience": 2.0,
+  "fermentingtime": 12000,
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "count": 1000,
+    "item": "italian_delight:hellhound_wine"
+  },
+  "temperature": 5
+}

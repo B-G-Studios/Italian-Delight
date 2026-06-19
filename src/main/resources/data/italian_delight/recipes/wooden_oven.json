@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "0": {
+      "tag": "minecraft:logs"
+    },
+    "1": {
+      "item": "minecraft:furnace"
+    },
+    "2": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "pattern": [
+    " 0 ",
+    "010",
+    " 2 "
+  ],
+  "result": {
+    "item": "italian_delight:wooden_oven"
+  },
+  "show_notification": true
+}

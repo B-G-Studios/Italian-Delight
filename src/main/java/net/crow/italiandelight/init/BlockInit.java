@@ -42,6 +42,7 @@ public class BlockInit {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ItalianDelightMain.MOD_ID);
 
+    public static final RegistryObject<Block> CIAMBELLONE = registerBlock("ciambellone", () -> new Ciambellone(Properties.copy(Blocks.CAKE), ItemInit.CIAMBELLONE_SLICE));
 
     //Wild Crops
     public static final RegistryObject<Block> WILD_GRAPES = BLOCKS.register("wild_grapes",

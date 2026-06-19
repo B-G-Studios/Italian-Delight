@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "italian_delight:pandoro"
+    }
+  ],
+  "result": [
+    {
+      "count": 8,
+      "item": "italian_delight:pandoro_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

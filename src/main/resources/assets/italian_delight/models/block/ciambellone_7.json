@@ -1,0 +1,26 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "italian_delight:block/ciambellone_inner",
+		"1": "italian_delight:block/ciambellone_side",
+		"2": "italian_delight:block/ciambellone_top",
+		"3": "italian_delight:block/ciambellone_botom",
+		"particle": "italian_delight:block/ciambellone_inner"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [5, 8, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 1]},
+			"faces": {
+				"north": {"uv": [11, 8, 15, 16], "texture": "#1"},
+				"east": {"uv": [1, 8, 15, 16], "texture": "#0"},
+				"south": {"uv": [1, 8, 15, 16], "texture": "#0"},
+				"west": {"uv": [1, 8, 5, 16], "texture": "#1"},
+				"up": {"uv": [1, 1, 5, 5], "texture": "#2"},
+				"down": {"uv": [1, 11, 5, 15], "texture": "#3"}
+			}
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "amount": 250,
+  "filling": true,
+  "fluid": "italian_delight:sweetberry_wine",
+  "output": {
+    "item": "italian_delight:sweetberry_wine"
+  },
+  "strict": false
+}

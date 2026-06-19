@@ -41,6 +41,8 @@ public class FoodValues {
     public static final FoodProperties PIZZA_DANTE_SLICE = ((new FoodProperties.Builder().nutrition(6).saturationMod(0.5f).build()));
     public static final FoodProperties PIZZA_DIAVOLA_SLICE = ((new FoodProperties.Builder().nutrition(4).saturationMod(0.3f).build()));
 
+    public static final FoodProperties CIAMBELLONE_SLICE = ((new FoodProperties.Builder().nutrition(2).saturationMod(0.1f).build()));
+
     // Wine
     // duration 1200 = 1 min
     public static final FoodProperties GLOWBERRY_WINE = ((new FoodProperties.Builder()).nutrition(0).saturationMod(0.5f)

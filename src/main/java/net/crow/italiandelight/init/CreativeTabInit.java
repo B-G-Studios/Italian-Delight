@@ -39,9 +39,14 @@ public class CreativeTabInit {
                         pOutput.accept(ItemInit.RISOTTO_AL_SUGO.get());
                         pOutput.accept(ItemInit.RISOTTO_AL_FUNGHI.get());
                         pOutput.accept(ItemInit.TIRAMISU.get());
+                        pOutput.accept(BlockInit.CIAMBELLONE.get());
+                        pOutput.accept(ItemInit.CIAMBELLONE_SLICE.get());
+
                         pOutput.accept(ItemInit.MOZZARELLA_PANINI.get());
                         pOutput.accept(ItemInit.MOZZARELLA_SALAD.get());
+                        pOutput.accept(ItemInit.PANDORO_DOUGH.get());
                         pOutput.accept(ItemInit.PANDORO.get());
+                        pOutput.accept(ItemInit.PANDORO_SLICE.get());
                         pOutput.accept(ItemInit.PIZZA_PROSCIUTTO_RAW.get());
                         pOutput.accept(ItemInit.PIZZA_PROSCIUTTO.get());
                         pOutput.accept(ItemInit.PIZZA_PROSCIUTTO_SLICE.get());
@@ -62,8 +67,6 @@ public class CreativeTabInit {
                         pOutput.accept(ItemInit.SALAMI_SLICE.get());
                         pOutput.accept(ItemInit.PANETTONE.get());
                         pOutput.accept(ItemInit.PANETTONE_SLICES.get());
-                        pOutput.accept(ItemInit.PANDORO_DOUGH.get());
-                        pOutput.accept(ItemInit.PANDORO_SLICE.get());
                         pOutput.accept(ItemInit.WILD_GRAPES.get());
                         pOutput.accept(ItemInit.WILD_HERBS.get());
 

@@ -1,7 +1,7 @@
 {
   "itemGroup.italian_delight": "Italian Delight Items",
 
-  "creative.italian_delight": "Italian Delights Items",
+  "creative.italian_delight": "Italian Delights",
 
   "item.italian_delight.grapes": "Grapes",
   "item.italian_delight.grape_seeds": "Grape Seeds",
@@ -17,6 +17,7 @@
   "item.italian_delight.pasta_al_pesto": "Pasta Al Pesto",
   "item.italian_delight.pasta_al_tomato": "Pasta Al Tomato",
   "item.italian_delight.tiramisu": "Tiramisu",
+  "item.italian_delight.ciambellone_slice": "Ciambellone Slice",
   "item.italian_delight.mozzarella_panini": "Mozzarella Panini",
   "item.italian_delight.mozzarella_salad": "Mozzarella Salad",
   "item.italian_delight.pandoro_dough": "Pandoro Dough",
@@ -66,6 +67,7 @@
   "block.italian_delight.wild_grapes": "Wild Grapes",
   "block.italian_delight.wild_herbs": "Wild Herbs",
 
+  "block.italian_delight.ciambellone": "Ciambellone",
 
   "block.italian_delight.olive_sapling": "Olive Sapling",
   "block.italian_delight.olive_log": "Olive Log",

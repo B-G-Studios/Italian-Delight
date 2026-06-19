@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "italian_delight:block/ciambellone"
+    },
+    "bites=1": {
+      "model": "italian_delight:block/ciambellone_1"
+    },
+    "bites=2": {
+      "model": "italian_delight:block/ciambellone_2"
+    },
+    "bites=3": {
+      "model": "italian_delight:block/ciambellone_3"
+    },
+    "bites=4": {
+      "model": "italian_delight:block/ciambellone_4"
+    },
+    "bites=5": {
+      "model": "italian_delight:block/ciambellone_5"
+    },
+    "bites=6": {
+      "model": "italian_delight:block/ciambellone_6"
+    },
+    "bites=7": {
+      "model": "italian_delight:block/ciambellone_7"
+    }
+  }
+}

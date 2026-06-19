@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "italian_delight:pizza_funghi"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "italian_delight:pizza_funghi_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
