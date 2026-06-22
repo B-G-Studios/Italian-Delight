@@ -1,6 +1,18 @@
 # Italian Delight
+Italian Delights adds Italian foods, recipes, and even a few wines  <br>
+Currently there is another project that intends to remake this mod with more developed features and better implementation <br>
+Check that out over here on [curseforge](https://www.curseforge.com/minecraft/mc-mods/italian-delight-remade) and on [modrinth](https://modrinth.com/mod/italians-delight-remade)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Notes for Remake
+Future Notes for things that will be handled and some that have been added to this verison
+
 Brewin and Chewin 1.20.1 uses an updated fluid system, every drink should have a fluid object <br>
 BnC BoozeItem() no longer default applies the Tipsy effect, and needs to be manually added in the FoodProperties definition <br>
 Pizzas extend the default BnC Pizza item <br>
