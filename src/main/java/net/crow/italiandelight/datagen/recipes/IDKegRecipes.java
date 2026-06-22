@@ -8,6 +8,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.material.Fluids;
+import net.minecraftforge.registries.ForgeRegistries;
 import umpaz.brewinandchewin.client.recipebook.FermentingRecipeBookTab;
 import umpaz.brewinandchewin.data.builder.KegFermentingRecipeBuilder;
 import vectorwing.farmersdelight.common.tag.ForgeTags;
@@ -99,7 +100,7 @@ public class IDKegRecipes {
     }
 
     private static ResourceLocation saveName(Item item) {
-        ResourceLocation RL = BuiltInRegistries.ITEM.getKey(item);
+        ResourceLocation RL = ForgeRegistries.ITEMS.getKey(item);
         return ResourceLocation.fromNamespaceAndPath(RL.getNamespace(), "fermenting/" + RL.getPath());
     }
 }

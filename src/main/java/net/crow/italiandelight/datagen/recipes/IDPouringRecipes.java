@@ -6,6 +6,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraftforge.registries.ForgeRegistries;
 import umpaz.brewinandchewin.common.registry.BnCFluids;
 import umpaz.brewinandchewin.common.registry.BnCItems;
 import umpaz.brewinandchewin.data.builder.KegPouringRecipeBuilder;
@@ -29,7 +30,7 @@ public class IDPouringRecipes {
     }
 
     private static ResourceLocation saveName(Item item) {
-        ResourceLocation RL = BuiltInRegistries.ITEM.getKey(item);
+        ResourceLocation RL = ForgeRegistries.ITEMS.getKey(item);
         return ResourceLocation.fromNamespaceAndPath(RL.getNamespace(), "pouring/" + RL.getPath());
     }
 }

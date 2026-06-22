@@ -68,7 +68,6 @@ public class ItemInit {
     public static final RegistryObject<Item> MOZZARELLA_PANINI = ITEMS.register("mozzarella_panini", () -> new Item(foodItem(FoodValues.MOZZARELLA_PANINI)));
     public static final RegistryObject<Item> MOZZARELLA_SALAD = ITEMS.register("mozzarella_salad", () -> new Item(foodItem(FoodValues.MOZZARELLA_SALAD)));
 
-    public static final RegistryObject<Item> PANDORO = ITEMS.register("pandoro", () -> new Item(foodItem(FoodValues.PANDORO)));
 
     // Pizza
     public static final RegistryObject<Item> PIZZA_PROSCIUTTO_RAW = ITEMS.register("pizza_prosciutto_raw",
@@ -106,9 +105,10 @@ public class ItemInit {
     public static final RegistryObject<Item> RAW_SALAMI = ITEMS.register("salami_raw", () -> new Item(foodItem(FoodValues.RAW_SALAMI)));
     public static final RegistryObject<Item> SALAMI = ITEMS.register("salami", () -> new Item(foodItem(FoodValues.SALAMI)));
     public static final RegistryObject<Item> SALAMI_SLICE = ITEMS.register("salami_slice", () -> new Item(foodItem(FoodValues.SALAMI_SLICE)));
-    public static final RegistryObject<Item> PANETTONE = ITEMS.register("panettone", () -> new Item(foodItem(FoodValues.PANETTONE)));
+    public static final RegistryObject<Item> PANETTONE = ITEMS.register("panettone", () -> new Item(basicItem()));
     public static final RegistryObject<Item> PANETTONE_SLICES = ITEMS.register("panettone_slice", () -> new Item(foodItem(FoodValues.PANETONNE_SLICE)));
     public static final RegistryObject<Item> PANDORO_DOUGH = ITEMS.register("pandoro_dough", () -> new Item(foodItem(FoodValues.PANDORO_DOUGH)));
+    public static final RegistryObject<Item> PANDORO = ITEMS.register("pandoro", () -> new Item(foodItem(FoodValues.PANDORO)));
     public static final RegistryObject<Item> PANDORO_SLICE = ITEMS.register("pandoro_slice", () -> new Item(foodItem(FoodValues.PANDORO_SLICE)));
 
 
