@@ -20,7 +20,7 @@
   "recipe_book_tab": "drinks",
   "result": {
     "count": 1000,
-    "item": "italian_delight:sweetberry_wine"
+    "fluid": "italian_delight:sweetberry_wine"
   },
   "temperature": 3
 }

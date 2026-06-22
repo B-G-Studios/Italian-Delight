@@ -7,11 +7,12 @@ import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraftforge.registries.ForgeRegistries;
 import umpaz.brewinandchewin.client.recipebook.FermentingRecipeBookTab;
 import umpaz.brewinandchewin.data.builder.KegFermentingRecipeBuilder;
-import vectorwing.farmersdelight.common.tag.ForgeTags;
+import vectorwing.farmersdelight.common.tag.CommonTags;
 
 import java.util.function.Consumer;
 
@@ -30,14 +31,14 @@ public class IDKegRecipes {
 
     private static void kegRecipes(Consumer<FinishedRecipe> consumer) {
         KegFermentingRecipeBuilder.kegFermentingRecipe(ItemInit.RAW_SALAMI.get(), 1, FAST_FERMENTING, SMALL_EXP, 1)
-                .addIngredient(ForgeTags.RAW_PORK)
+                .addIngredient(CommonTags.Items.RAW_PORK)
                 .addIngredient(Items.SUGAR)
                 .addIngredient(Items.DRIED_KELP)
                 .unlockedByAnyIngredient(Items.PORKCHOP)
                 .setRecipeBookTab(FermentingRecipeBookTab.MEALS)
                 .build(consumer, saveName(ItemInit.RAW_SALAMI.get()));
 
-        KegFermentingRecipeBuilder.kegFermentingRecipe(ItemInit.ROSE_WINE.get(), 1000, NORMAL_FERMENTING, MEDIUM_EXP)
+        KegFermentingRecipeBuilder.kegFermentingRecipe(FluidInit.ROSE_WINE.get(), 1000, NORMAL_FERMENTING, MEDIUM_EXP)
                 .addFluidIngredient(Fluids.WATER, 1000)
                 .addIngredient(ItemInit.GRAPES.get())
                 .addIngredient(Items.SUGAR)
@@ -46,7 +47,7 @@ public class IDKegRecipes {
                 .setRecipeBookTab(FermentingRecipeBookTab.DRINKS)
                 .build(consumer, saveName(ItemInit.ROSE_WINE.get()));
 
-        KegFermentingRecipeBuilder.kegFermentingRecipe(ItemInit.SWEETBERRY_WINE.get(), 1000, NORMAL_FERMENTING, MEDIUM_EXP)
+        KegFermentingRecipeBuilder.kegFermentingRecipe(FluidInit.SWEETBERRY_WINE.get(), 1000, NORMAL_FERMENTING, MEDIUM_EXP)
                 .addFluidIngredient(Fluids.WATER, 1000)
                 .addIngredient(ItemInit.GRAPES.get())
                 .addIngredient(Items.SWEET_BERRIES)
@@ -55,7 +56,7 @@ public class IDKegRecipes {
                 .setRecipeBookTab(FermentingRecipeBookTab.DRINKS)
                 .build(consumer, saveName(ItemInit.SWEETBERRY_WINE.get()));
 
-        KegFermentingRecipeBuilder.kegFermentingRecipe(ItemInit.GLOWBERRY_WINE.get(), 1000, NORMAL_FERMENTING, MEDIUM_EXP)
+        KegFermentingRecipeBuilder.kegFermentingRecipe(FluidInit.GLOWBERRY_WINE.get(), 1000, NORMAL_FERMENTING, MEDIUM_EXP)
                 .addFluidIngredient(FluidInit.SWEETBERRY_WINE.get(), 1000)
                 .addIngredient(ItemInit.GRAPES.get())
                 .addIngredient(Items.GLOW_BERRIES)
@@ -64,7 +65,7 @@ public class IDKegRecipes {
                 .setRecipeBookTab(FermentingRecipeBookTab.DRINKS)
                 .build(consumer, saveName(ItemInit.GLOWBERRY_WINE.get()));
 
-        KegFermentingRecipeBuilder.kegFermentingRecipe(ItemInit.HASTING_WINE.get(), 1000, NORMAL_FERMENTING, MEDIUM_EXP, 2)
+        KegFermentingRecipeBuilder.kegFermentingRecipe(FluidInit.HASTING_WINE.get(), 1000, NORMAL_FERMENTING, MEDIUM_EXP, 2)
                 .addFluidIngredient(Fluids.WATER, 1000)
                 .addIngredient(ItemInit.GRAPES.get())
                 .addIngredient(Items.STONE)
@@ -73,7 +74,7 @@ public class IDKegRecipes {
                 .setRecipeBookTab(FermentingRecipeBookTab.DRINKS)
                 .build(consumer, saveName(ItemInit.HASTING_WINE.get()));
 
-        KegFermentingRecipeBuilder.kegFermentingRecipe(ItemInit.HELLHOUND_WINE.get(), 1000, SLOW_FERMENTING, LARGE_EXP, 5)
+        KegFermentingRecipeBuilder.kegFermentingRecipe(FluidInit.HELLHOUND_WINE.get(), 1000, SLOW_FERMENTING, LARGE_EXP, 5)
                 .addFluidIngredient(Fluids.LAVA, 1000)
                 .addIngredient(Items.COAL)
                 .addIngredient(Items.BLAZE_POWDER)
@@ -82,7 +83,7 @@ public class IDKegRecipes {
                 .setRecipeBookTab(FermentingRecipeBookTab.DRINKS)
                 .build(consumer, saveName(ItemInit.HELLHOUND_WINE.get()));
 
-        KegFermentingRecipeBuilder.kegFermentingRecipe(ItemInit.DRAGONBORN_WINE.get(), 1000, SLOW_FERMENTING, MEDIUM_EXP, 4)
+        KegFermentingRecipeBuilder.kegFermentingRecipe(FluidInit.DRAGONBORN_WINE.get(), 1000, SLOW_FERMENTING, MEDIUM_EXP, 4)
                 .addFluidIngredient(FluidInit.HELLHOUND_WINE.get(), 1000)
                 .addIngredient(Items.DRAGON_BREATH)
                 .addIngredient(Items.ENDER_PEARL)
@@ -90,7 +91,7 @@ public class IDKegRecipes {
                 .setRecipeBookTab(FermentingRecipeBookTab.DRINKS)
                 .build(consumer, saveName(ItemInit.DRAGONBORN_WINE.get()));
 
-        KegFermentingRecipeBuilder.kegFermentingRecipe(ItemInit.SPUMANTE.get(), 1000, NORMAL_FERMENTING, MEDIUM_EXP, 2)
+        KegFermentingRecipeBuilder.kegFermentingRecipe(FluidInit.SPUMANTE.get(), 1000, NORMAL_FERMENTING, MEDIUM_EXP, 2)
                 .addFluidIngredient(FluidInit.SWEETBERRY_WINE.get(), 1000)
                 .addIngredient(ItemInit.GRAPES.get())
                 .addIngredient(Items.SUGAR)

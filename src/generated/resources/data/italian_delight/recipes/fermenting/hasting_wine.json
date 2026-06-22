@@ -20,7 +20,7 @@
   "recipe_book_tab": "drinks",
   "result": {
     "count": 1000,
-    "item": "italian_delight:hasting_wine"
+    "fluid": "italian_delight:hasting_wine"
   },
   "temperature": 2
 }

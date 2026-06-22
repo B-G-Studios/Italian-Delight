@@ -17,7 +17,7 @@
   "recipe_book_tab": "drinks",
   "result": {
     "count": 1000,
-    "item": "italian_delight:spumante"
+    "fluid": "italian_delight:spumante"
   },
   "temperature": 2
 }

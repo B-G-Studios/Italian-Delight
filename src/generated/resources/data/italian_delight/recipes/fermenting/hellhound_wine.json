@@ -20,7 +20,7 @@
   "recipe_book_tab": "drinks",
   "result": {
     "count": 1000,
-    "item": "italian_delight:hellhound_wine"
+    "fluid": "italian_delight:hellhound_wine"
   },
   "temperature": 5
 }

@@ -17,7 +17,7 @@
   "recipe_book_tab": "drinks",
   "result": {
     "count": 1000,
-    "item": "italian_delight:dragonborn_wine"
+    "fluid": "italian_delight:dragonborn_wine"
   },
   "temperature": 4
 }
